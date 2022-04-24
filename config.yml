@@ -1,0 +1,71 @@
+baseURL: "https://www.kuuk.la" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: Ondřej Kukla
+paginate: 5
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+pygmentsUseClasses: true
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+menu:
+    main:
+        - name: Blog
+          url: posts
+        - name: Search
+          url: search/
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+    author: Ondřej Kukla
+
+    defaultTheme: auto
+    ShowReadingTime: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    # comments: false
+    images: ["papermod-cover.png"]
+
+    # homeInfoParams:
+    #     Title: "Hi there \U0001F44B"
+    #     Content: Can be Info, links, about...
+
+    # socialIcons: # optional
+    #     - name: "github"
+    #       url: "<link>"
+    #     - name: "linkedin"
+    #       url: "<link2>"
+
+    profileMode:
+            enabled: true
+            Title: "Hi there \U0001F44B"
+            subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+
+    socialIcons:
+        - name: "github"
+          url: "<link>"
+        - name: "linkedin"
+          url: "<link2>"
+        - name: "email"
+          url: "<link2>"
+
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
