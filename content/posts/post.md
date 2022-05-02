@@ -33,4 +33,4 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-Text here is Markdown.
+## Text here is Markdown.
