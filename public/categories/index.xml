@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Ondřej Kukla</title>
-    <link>https://www.kuuk.la/categories/</link>
+    <link>https://kuuk.la/categories/</link>
     <description>Recent content in Categories on Ondřej Kukla</description>
     <image>
-      <url>https://www.kuuk.la/papermod-cover.png</url>
-      <link>https://www.kuuk.la/papermod-cover.png</link>
+      <url>https://kuuk.la/papermod-cover.png</url>
+      <link>https://kuuk.la/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.kuuk.la/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://kuuk.la/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
