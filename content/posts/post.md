@@ -1,18 +1,17 @@
 ---
 title: "My 1st post"
-date: 2020-09-15T11:30:03+00:00
+date: 2022-05-01T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["first"]
 author: "Ondřej Kukla"
-# author: ["Me", "You"] # multiple authors
 showToc: false
 TocOpen: false
 draft: false
 hidemeta: false
 comments: false
 description: "This is some description"
-canonicalURL: "https://canonical.url/to/page"
+# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
