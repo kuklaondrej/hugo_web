@@ -54,15 +54,15 @@ params:
     profileMode:
             enabled: true
             Title: "Hi there \U0001F44B"
-            subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+            subtitle: "Welcome to my site."
 
     socialIcons:
         - name: "github"
-          url: "<link>"
+          url: "https://github.com/kuklaondrej/"
         - name: "linkedin"
-          url: "<link2>"
+          url: "https://www.linkedin.com/in/ondrej-kukla/"
         - name: "email"
-          url: "<link2>"
+          url: "mailto:ondrej@kuuk.la"
 
 
 markup:

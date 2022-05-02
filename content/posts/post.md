@@ -6,12 +6,12 @@ date: 2020-09-15T11:30:03+00:00
 tags: ["first"]
 author: "Ondřej Kukla"
 # author: ["Me", "You"] # multiple authors
-showToc: true
+showToc: false
 TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Desc Text."
+description: "This is some description"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -21,16 +21,54 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
-editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+
 ---
 
-## Text here is Markdown.
+# Heading 1
+## Heading 2
+### Heading 3
+
+**bold text**
+
+*italic*
+
+> block quote
+
+1. list
+2. second
+3. third
+
+- item
+- second item
+- third item
+
+`code `
+
+--- 
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+``` 
+
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote. 
+
+term
+: definition 
+
+~~The world is flat.~~
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media 
+
